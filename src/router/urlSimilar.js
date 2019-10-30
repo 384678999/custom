@@ -1,6 +1,5 @@
-const url = [
+const urlSimilar = [
   // 放置路由
-
   {
     path: '/',
     // name: 'leader',
@@ -23,4 +22,4 @@ const url = [
     ]
   },
 ]
-export default url
+export default urlSimilar

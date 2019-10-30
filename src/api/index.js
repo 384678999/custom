@@ -3,10 +3,12 @@
 // } from "./env";
 import axios from 'axios';
 import url from './url'
+import urlSimilar from './urlSimilar'
 axios.defaults.timeout = 10000; //设置请求时间
 axios.defaults.baseURL = 'http://yapi.demo.qunar.com/mock/19046/';//设置默认接口地址
 const api = {
-  url
+  url,
+  urlSimilar
 };
 
 
